@@ -1,0 +1,10 @@
+name = "SQLite_jll"
+uuid = "76ed43ae-9a5d-5a62-8c75-30186b810ce8"
+version = "3.30.1+0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+julia = "1.3"
