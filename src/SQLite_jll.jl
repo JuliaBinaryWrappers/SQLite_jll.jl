@@ -43,7 +43,10 @@ best_platform = select_platform(Dict(p => triplet(p) for p in platforms))
 if best_platform === nothing
     @debug("Unable to load SQLite; unsupported platform $(triplet(platform_key_abi()))")
 else
-    # Load the appropriate wrapper
+    # Load the appropriate wrapper.  Note that on older Julia versions, we still
+    # say "arm-linux-gnueabihf" instead of the more correct "armv7l-linux-gnueabihf",
+    # so we manually correct for that here:
+    best_platform = replace(best_platform, "arm-" => "armv7l-")
     include(joinpath(@__DIR__, "wrappers", "$(best_platform).jl"))
 end
 
