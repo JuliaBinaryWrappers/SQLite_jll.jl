@@ -1,9 +1,10 @@
 name = "SQLite_jll"
 uuid = "76ed43ae-9a5d-5a62-8c75-30186b810ce8"
-version = "3.31.1+0"
+version = "3.32.3+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 [compat]
