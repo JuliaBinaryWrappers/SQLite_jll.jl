@@ -1,6 +1,6 @@
 name = "SQLite_jll"
 uuid = "76ed43ae-9a5d-5a62-8c75-30186b810ce8"
-version = "3.38.4+0"
+version = "3.39.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
