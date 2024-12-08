@@ -1,143 +1,151 @@
 [[SQLite]]
 arch = "aarch64"
-git-tree-sha1 = "188f11603f696953658ce9b76b213658d32c8324"
+git-tree-sha1 = "5148429af2bf0b9311f7f3a9f684a33821187f42"
 os = "macos"
 
     [[SQLite.download]]
-    sha256 = "1beb06537cd91b1cac6e19cd4bf84d96308638102e2f58440de5dc49eef16d87"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.aarch64-apple-darwin.tar.gz"
+    sha256 = "a2f9047bfbaffc1e808bc2f7383a9399e02fe4024f3305ac8417580c86183377"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.aarch64-apple-darwin.tar.gz"
 [[SQLite]]
 arch = "aarch64"
-git-tree-sha1 = "369e137084f099df7d24951ef6af9276912e7630"
+git-tree-sha1 = "2506ac6d32f2c648ab12e74c1e0c3431045c62cb"
 libc = "glibc"
 os = "linux"
 
     [[SQLite.download]]
-    sha256 = "15df53d96a42be6b49af59219debc0412cbfb33fb2fe2826db86aaed48581806"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.aarch64-linux-gnu.tar.gz"
+    sha256 = "8d0e8a62775f404a7bf74e7cbcde52983f7cbde7f7826f9192a9375a35212673"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.aarch64-linux-gnu.tar.gz"
 [[SQLite]]
 arch = "aarch64"
-git-tree-sha1 = "8a03e5eaca0834b40f7b4de2b2d9f0554453dfb8"
+git-tree-sha1 = "74ffc24fb85d03d6e08ca73b9574b5fceb916d1f"
 libc = "musl"
 os = "linux"
 
     [[SQLite.download]]
-    sha256 = "5abe020f7a1ba42ab3f11bff04ca6f65543d7ffd44599798a74ff59de0f66894"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.aarch64-linux-musl.tar.gz"
+    sha256 = "7f77ccb7953b56c2c770327e4660e38afa59af4e19622c7dd9d47d984898fefd"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.aarch64-linux-musl.tar.gz"
 [[SQLite]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "ac06112c3563d875a4c911c19722da8d96bcb412"
-libc = "glibc"
-os = "linux"
-
-    [[SQLite.download]]
-    sha256 = "615f1d1acbafe2326c7c574a6f78aa3f2838b4d3d2b0fef4538c6cf7ae2f918f"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.armv6l-linux-gnueabihf.tar.gz"
-[[SQLite]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "202bc988d3d42de21c6b4da9ea172212548ae044"
-libc = "musl"
-os = "linux"
-
-    [[SQLite.download]]
-    sha256 = "b628edda3db457bbdbca80321939999cb73cc5b8fbd2cd45e3b1064151069bbe"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.armv6l-linux-musleabihf.tar.gz"
-[[SQLite]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "b17559a881cea45fa7d71907a146ad75a92e2c3c"
-libc = "glibc"
-os = "linux"
-
-    [[SQLite.download]]
-    sha256 = "23a49d52edfb1158aad42db3dada854a9150e69cc43ae33781db23071edac195"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.armv7l-linux-gnueabihf.tar.gz"
-[[SQLite]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "20aa8a7eab779caebf82e753b2fd25a60ebdc7f3"
-libc = "musl"
-os = "linux"
-
-    [[SQLite.download]]
-    sha256 = "70e47eb768016f9c59a1f8b08f69945c833d46e06f17e68a98a737f8067051a0"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.armv7l-linux-musleabihf.tar.gz"
-[[SQLite]]
-arch = "i686"
-git-tree-sha1 = "6fdea393bccfb924b51d8d3097bf9f28d2c56680"
-libc = "glibc"
-os = "linux"
-
-    [[SQLite.download]]
-    sha256 = "184c2fd5a75250aae0c3a2ab9cbd8970a71cd533c4645fc46c66a4215572605b"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.i686-linux-gnu.tar.gz"
-[[SQLite]]
-arch = "i686"
-git-tree-sha1 = "5029962dc13dd0c7b1d4fac9da8aba1764f5bdfe"
-libc = "musl"
-os = "linux"
-
-    [[SQLite.download]]
-    sha256 = "5d6e09ce323d05629cfaa78bd84d07853d35164a7cfcdd0aedbfe14fd550c7f4"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.i686-linux-musl.tar.gz"
-[[SQLite]]
-arch = "i686"
-git-tree-sha1 = "580700513298b9c29fb4b5b7bca7f74380527d66"
-os = "windows"
-
-    [[SQLite.download]]
-    sha256 = "c9d00f50642c2c14e7c589e0b4e8e2cf6c3cfc5cf51a3e9b2f9fe0a90b110606"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.i686-w64-mingw32.tar.gz"
-[[SQLite]]
-arch = "powerpc64le"
-git-tree-sha1 = "44f07d932593faafcf354a104e6254014934f62e"
-libc = "glibc"
-os = "linux"
-
-    [[SQLite.download]]
-    sha256 = "99eeda8d5631f4d5f6f1abcd9b12b19174f1056bed87dec2c3edf53059634126"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.powerpc64le-linux-gnu.tar.gz"
-[[SQLite]]
-arch = "x86_64"
-git-tree-sha1 = "d71c54ff02455b9722d2fab31b1a1d983a7b883e"
-os = "macos"
-
-    [[SQLite.download]]
-    sha256 = "567e14e0364f5aa2fff3e6fa60dfe62647b500513b4e9aa2dfd286af1a251aa2"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.x86_64-apple-darwin.tar.gz"
-[[SQLite]]
-arch = "x86_64"
-git-tree-sha1 = "9d5b265b4595bbfdff294800c8c91dc68200a139"
-libc = "glibc"
-os = "linux"
-
-    [[SQLite.download]]
-    sha256 = "9c2212ed2bd0beacf7a2587f6ac033bdbaa5d6b612110c584e2717a19f8dbb3b"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.x86_64-linux-gnu.tar.gz"
-[[SQLite]]
-arch = "x86_64"
-git-tree-sha1 = "b979bbcb39ae8935250b835abb0dc52c5f4117fb"
-libc = "musl"
-os = "linux"
-
-    [[SQLite.download]]
-    sha256 = "d319deb392588e586db453a4fd1699fb0f74c3728e9d27304f5b514779c21342"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.x86_64-linux-musl.tar.gz"
-[[SQLite]]
-arch = "x86_64"
-git-tree-sha1 = "0726fd691a813094d665679e9698ba8286b93f6c"
+arch = "aarch64"
+git-tree-sha1 = "c014043c0787815b1560353ce74705f90474a3f3"
 os = "freebsd"
 
     [[SQLite.download]]
-    sha256 = "204598b0da82887d4986f91ab0fd1e12edbd4bdb29505a00cbcef31817f3cb62"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "df963e6c1583107abbf1dd62e6d42e9c3c2c4921fd4edc13f499c43029b212d0"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.aarch64-unknown-freebsd.tar.gz"
 [[SQLite]]
-arch = "x86_64"
-git-tree-sha1 = "75eda71ff60745d95c129ae52b57385bb6cc287f"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "14c9802966aeaf47e67c0d5ccf8f2dbc647042f1"
+libc = "glibc"
+os = "linux"
+
+    [[SQLite.download]]
+    sha256 = "e70d4de0481d2308329b3e8014335de1cfdca4c96f558de58b37ca185e222330"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.armv6l-linux-gnueabihf.tar.gz"
+[[SQLite]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "4da270cf57ca2a4097c460decdba9954b7c0598e"
+libc = "musl"
+os = "linux"
+
+    [[SQLite.download]]
+    sha256 = "0cc3861611fab721b3c8fdf55489e34c0e5adc37ee4497cfdfbb9c8533e72dff"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.armv6l-linux-musleabihf.tar.gz"
+[[SQLite]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "806a18df887b7e49c4b230ca10734c33112f0eb8"
+libc = "glibc"
+os = "linux"
+
+    [[SQLite.download]]
+    sha256 = "3e86403dd8dfbd70c66b523105e864c55c02eb0eefa3e45faca03667dc141751"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.armv7l-linux-gnueabihf.tar.gz"
+[[SQLite]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "a17fd99fc0022a11ef9a1fcd5427826ce1745f39"
+libc = "musl"
+os = "linux"
+
+    [[SQLite.download]]
+    sha256 = "0428de9c3405ed54bf2ef6200a38ee9c5f44f05120e67dc0e808d0aa2e6ab57b"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.armv7l-linux-musleabihf.tar.gz"
+[[SQLite]]
+arch = "i686"
+git-tree-sha1 = "37bd90199784aca88791dc557e2b66b02342f8d2"
+libc = "glibc"
+os = "linux"
+
+    [[SQLite.download]]
+    sha256 = "7a559a246cfb1e24014f10f364431373d176c227de24c840c4835a63aa918c76"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.i686-linux-gnu.tar.gz"
+[[SQLite]]
+arch = "i686"
+git-tree-sha1 = "50bf9e1bb9cf411954115d8bbacd473d0125cc9e"
+libc = "musl"
+os = "linux"
+
+    [[SQLite.download]]
+    sha256 = "53da9050b754a021f499de3ce6114c7cc78e80d9e9521f6cd56fd21cb2ade239"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.i686-linux-musl.tar.gz"
+[[SQLite]]
+arch = "i686"
+git-tree-sha1 = "7b79d6ba28d3d4d825e50ea3158622eb5a11a3e6"
 os = "windows"
 
     [[SQLite.download]]
-    sha256 = "650282cc66309a2f6bc831b663e687016c696dc2d78679463bbec6c1f21046a2"
-    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.45.3+0/SQLite.v3.45.3.x86_64-w64-mingw32.tar.gz"
+    sha256 = "77a60b73ba43c590eedaf61304631ae827ab1ff8447f34f9105ad3fa70f82222"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.i686-w64-mingw32.tar.gz"
+[[SQLite]]
+arch = "powerpc64le"
+git-tree-sha1 = "1cf79d148c3b0ece45a07d061802f5439e099239"
+libc = "glibc"
+os = "linux"
+
+    [[SQLite.download]]
+    sha256 = "166997c3ad04206ad73fdc45c4fd5b58d52ee79aac8f5b2d0afe060a1eedfc0a"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.powerpc64le-linux-gnu.tar.gz"
+[[SQLite]]
+arch = "x86_64"
+git-tree-sha1 = "09d63a24b02384c3f5e02a047d7369ec54873740"
+os = "macos"
+
+    [[SQLite.download]]
+    sha256 = "ccc289f43f90a9f58ca832edfdbd3811f98d1e776e0741872299a12e62a39c38"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.x86_64-apple-darwin.tar.gz"
+[[SQLite]]
+arch = "x86_64"
+git-tree-sha1 = "ee32d53f3fc3de72807a4ae722bc316e2baa8ef5"
+libc = "glibc"
+os = "linux"
+
+    [[SQLite.download]]
+    sha256 = "bd6a2ba2bfb61fab174f90b84672d435fd0693b5d50a2b1acb73cb6826045fd4"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.x86_64-linux-gnu.tar.gz"
+[[SQLite]]
+arch = "x86_64"
+git-tree-sha1 = "3008ec9c0baa34d3a95aae06a0c6af8eb494b915"
+libc = "musl"
+os = "linux"
+
+    [[SQLite.download]]
+    sha256 = "6ea0cb9bef03b3800c94fe034c71c1a7b85c496fbb10385d6d2970b4ff027aa9"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.x86_64-linux-musl.tar.gz"
+[[SQLite]]
+arch = "x86_64"
+git-tree-sha1 = "aa61b3eb9cc00b902ec6a74fd9f92f63d4db4f89"
+os = "freebsd"
+
+    [[SQLite.download]]
+    sha256 = "9617792034d92d4511147a7fd8cfae265992536d49fb3d719f68c308a7a016c3"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.x86_64-unknown-freebsd.tar.gz"
+[[SQLite]]
+arch = "x86_64"
+git-tree-sha1 = "2dc9856a28f240f893f68587df1990e1c5411f9b"
+os = "windows"
+
+    [[SQLite.download]]
+    sha256 = "eaa4a480778b488eb2b59accf16c970ffa38a914607a79a0635bb65ae2b51920"
+    url = "https://github.com/JuliaBinaryWrappers/SQLite_jll.jl/releases/download/SQLite-v3.47.2+0/SQLite.v3.47.2.x86_64-w64-mingw32.tar.gz"
