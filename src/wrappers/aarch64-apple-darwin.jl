@@ -3,13 +3,13 @@ export libsqlite, sqlite3
 
 using Zlib_jll
 JLLWrappers.@generate_wrapper_header("SQLite")
-JLLWrappers.@declare_library_product(libsqlite, "@rpath/libsqlite3.0.dylib")
+JLLWrappers.@declare_library_product(libsqlite, "@rpath/libsqlite3.dylib")
 JLLWrappers.@declare_executable_product(sqlite3)
 function __init__()
     JLLWrappers.@generate_init_header(Zlib_jll)
     JLLWrappers.@init_library_product(
         libsqlite,
-        "lib/libsqlite3.0.dylib",
+        "lib/libsqlite3.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

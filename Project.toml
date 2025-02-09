@@ -1,10 +1,11 @@
 name = "SQLite_jll"
 uuid = "76ed43ae-9a5d-5a62-8c75-30186b810ce8"
-version = "3.48.0+0"
+version = "3.49.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
+dlfcn_win32_jll = "c4b69c83-5512-53e3-94e6-de98773c479f"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
