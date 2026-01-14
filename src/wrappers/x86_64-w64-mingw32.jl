@@ -4,13 +4,13 @@ export libsqlite, sqlite3
 using Zlib_jll
 using dlfcn_win32_jll
 JLLWrappers.@generate_wrapper_header("SQLite")
-JLLWrappers.@declare_library_product(libsqlite, "libsqlite3.dll")
+JLLWrappers.@declare_library_product(libsqlite, "libsqlite3-0.dll")
 JLLWrappers.@declare_executable_product(sqlite3)
 function __init__()
     JLLWrappers.@generate_init_header(Zlib_jll, dlfcn_win32_jll)
     JLLWrappers.@init_library_product(
         libsqlite,
-        "bin\\libsqlite3.dll",
+        "bin\\libsqlite3-0.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

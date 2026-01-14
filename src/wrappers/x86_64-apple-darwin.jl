@@ -9,7 +9,7 @@ function __init__()
     JLLWrappers.@generate_init_header(Zlib_jll)
     JLLWrappers.@init_library_product(
         libsqlite,
-        "lib/libsqlite3.dylib",
+        "lib/libsqlite3.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
